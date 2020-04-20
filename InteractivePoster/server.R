@@ -22,14 +22,14 @@ shinyServer(function(input, output) {
     
     output$teaching <- renderText({
         
-        paste("<b>Recent immprovements in teaching research methods</b>", "<br> <br>", "When social science students arrive at university to begin programmes in subjects like politics, 
+        paste("<b>Recent improvements in teaching research methods</b>", "<br> <br>", "When social science students arrive at university to begin programmes in subjects like politics, 
               sociology, and criminology, very few of them expect to also be required to take and pass modules on statistics and computational research methods. 
               However, this is the reality now across the majority of social science courses offered in the UK, as teaching of quantitative research methods becomes thoroughly and properly
-              embedded into course curiccula. But this was not always the case, and the volume and quality of this teaching and learning has improved rapidly and dramatically in a 
+              embedded into course curricula. But this was not always the case, and the volume and quality of this teaching and learning has improved rapidly and dramatically in a 
               very short space of time. As such, the pedogogy of how to fuse methods teaching with this intensity within 'soft science' subjects is very much fresh and growing.", "<br> <br>", 
               "There have been huge improvements recently to the levels and quality in teaching of research methods in social science courses all across the UK. 
               This is down to the the Q-Step initiative, a £19.5m programme funded by the Nuffield Foundation (supported by the ESRC) from 2013-2021. This was launched
-              as a 'systematic response to the shortage of quantitatively-skiled social science graduates', with the aim of bringing the teaching of computational 
+              as a 'systematic response to the shortage of quantitatively-skilled social science graduates', with the aim of bringing the teaching of computational 
               research methods into the heart of social science programmes across the country. This initiative sparked a complete change in the manner and depth
               with which quantitative, computational research methods were taught in undergraduate programmes. <b>81</b> degree programmes and <b>236 modules</b> 
               have spun out from the programme to date.")
@@ -41,12 +41,12 @@ shinyServer(function(input, output) {
                but as we now move forward without the Nuffield funding, there remain many challenges and questions ahead. Educators involved in the programmes and Centres established by
                it will remain, but without the guaranteed funding, it is up to them to make their courses sustainable and to UK universities to maintain the embedding of methods training into
                undergraduate social science programmes. In order to do this, quantitative methods educators must answer some tough questions.", "<br> <br>", 
-               "<p style='margin-left: 1.5em; margin-right: 1.5em; margin-top: -1%'>1) Much of the application and design of teaching and learning in Q-Step centres/programmes/modules was decentralised, so how do we go about learning from one another, developing
+              "<p style='margin-left: 1.5em; margin-right: 1.5em; margin-top: -1%'>1) Much of the application and design of teaching and learning in Q-Step centres/programmes/modules was decentralised, so how do we go about learning from one another, developing
                best practices, and harmonising approaches and philosophies across institutions?<p>", "<br>",
-               "<p style='margin-left: 1.5em; margin-right: 1.5em; margin-top: -1%'>2) There have been widespread issues in maintaining student engagement in this challenging learning environment - keeping students motivated to learn content which they did not expect
+              "<p style='margin-left: 1.5em; margin-right: 1.5em; margin-top: -1%'>2) There have been widespread issues in maintaining student engagement in this challenging learning environment - keeping students motivated to learn content which they did not expect
                (and many do not like) to learn - how can we improve student retention and buy-in to their learning?<p>", "<br>", 
-               "<p style='margin-left: 1.5em; margin-right: 1.5em; margin-top: -1%'>3) Finally, the desire to improve the provision of methods training in courses was very much a 'job market centric' motivation, meaning
-               that pedegogical perspectives are only just catching up with the speed and volume at which these changes were made. What models can we build to properly critique and evaluate methods training
+              "<p style='margin-left: 1.5em; margin-right: 1.5em; margin-top: -1%'>3) Finally, the desire to improve the provision of methods training in courses was very much a 'job market centric' motivation, meaning
+               that pedagogical perspectives are only just catching up with the speed and volume at which these changes were made. What models can we build to properly critique and evaluate methods training
               to undergraduate at such large scales and with such integration into the wider course material as we do now?<p>")
         
     })
@@ -73,7 +73,7 @@ shinyServer(function(input, output) {
     output$datathresh <- renderText({
         
         paste("<b>Thresholds in methods teaching?</b>", "<br> <br>", "<center> <img src='eureka.gif'> </center>", "<br> <br>", "The questions is: <b>What might threshold concepts in teaching quantitative research methods looks like?</b>
-              Are they <em>knowledge based</em>? Is it the deep learning of a particular <em>computational skill?</em>? Is it the ability to <em>connect theory to practice?</em> Is it perhsaps
+              Are they <em>knowledge based</em>? Is it the deep learning of a particular <em>computational skill?</em>? Is it the ability to <em>connect theory to practice?</em> Is it perhaps
               <em>all of the above?</em> As educators, we need measurements and theories of our own about these potential moments and how much of a threshold they constitute. My assessment submission will (hopefully) formalise these into
               proper research questions and hypotheses, which I will then test using data gathered from my own teaching experiences and those of others involved in teaching quantitative
               methods to social science students.")
@@ -86,8 +86,8 @@ shinyServer(function(input, output) {
         
         paste("<b>Assessment research questions</b>", "<br> <br>", "My module 1 assessment will aim to answer the following research questions:", "<br> <br>",
               "<p style='margin-left: 1.5em; margin-right: 1.5em; margin-top: -1%'>1) <b>Are there threshold concepts in teaching quantitative research methods to social science undergraduate students?</b><p>", "<br>",
-              "<p style='margin-left: 1.5em; margin-right: 1.5em; margin-top: -1%'>2) <b>Are these concepts based in knowledge, pratical application, connecting theory and practice, or a combination of all three?</b><p>", "<br>", 
-              "<p style='margin-left: 1.5em; margin-right: 1.5em; margin-top: -1%'>3) <b>If we can identify threshold concepts, can we design a pedegogy and course structures which focuses on delivering threshold concepts as
+              "<p style='margin-left: 1.5em; margin-right: 1.5em; margin-top: -1%'>2) <b>Are these concepts based in knowledge, practical application, connecting theory and practice, or a combination of all three?</b><p>", "<br>", 
+              "<p style='margin-left: 1.5em; margin-right: 1.5em; margin-top: -1%'>3) <b>If we can identify threshold concepts, can we design a pedagogy and course structures which focuses on delivering threshold concepts as
               key learning outcomes?</b><p>", "<br>",
               "<p style='margin-left: 1.5em; margin-right: 1.5em; margin-top: -1%'>4) <b>Would such a course be successful and popular with students?</b><p>")
         

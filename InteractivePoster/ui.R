@@ -30,7 +30,7 @@ shinyUI(
     tags$br(),
     
     tags$b("This interactive web poster presents an outline of my planned research for the Module 1 APP assignment, 
-           where I plan to look at how we can define, measure and evaluate 'threshold concepts' in teaching quantiative 
+           where I plan to look at how we can define, measure and evaluate 'threshold concepts' in teaching quantitative  
            research methods to social science students. This is a particularly acute issue in teaching and learning of 
            computational and quantitative research methods at UK universities. Thanks to the Nuffield funded Q-Step programme, 
            methods teaching in our universities has undergone a significant step change in recent years in terms of outcomes 
@@ -40,10 +40,10 @@ shinyUI(
     tags$br(),
     
     tags$b("Computational and statistical research skills are now deeply embedded into many social science programmes. 
-            But despite the success of the Q-Step initiative in exponentially growing the level and quality of quantiative, 
+            But despite the success of the Q-Step initiative in exponentially growing the level and quality of quantitative, 
             computational methods training in social science undergraduate courses UK-wide, questions remain as to how to maintain 
             student engagement with these challenging topics, define and measure successful learning of core concepts and skills, and 
-            develop a proper pedegogy of learning quantitative research skills. In my module 1 assessment, I propose and test the hypothesis
+            develop a proper pedagogy of learning quantitative research skills. In my module 1 assessment, I propose and test the hypothesis
             that threshold concepts exist in teaching quantitative methods to social science students, and that we can use these in our course
             design and structures in order to rise to some of the challenges which lie ahead."),
            
@@ -69,7 +69,10 @@ shinyUI(
 
             tags$br(),
             tags$hr(),
-            tags$footer("Background attribution: https://www.vecteezy.com/free-vector/poster-background - Poster Background Vectors by Vecteezy")
+            tags$footer("Background attribution: https://www.vecteezy.com/free-vector/poster-background - Poster Background Vectors by Vecteezy"),
+            tags$br(),
+            tags$footer("GitHub link for web-poster code: https://github.com/patrick-eng/APPMod1Poster"),
+    
 
     )
 )
